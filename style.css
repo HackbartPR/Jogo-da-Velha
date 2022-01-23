@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+#score {
+  width: 400px;
+  border: 1px solid black;
+  grid-area: score;
+  display: grid;
+  grid-template-areas: 'icon1 ply1 x ply2 icon2';
+  grid-template-columns: 1fr 1fr 0.3fr 1fr 1fr;
+}
+
+#container {
+  margin-top: 20px;
+  width: 400px;
+  height: 500px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas:
+    'sqr1 sqr2 sqr3'
+    'sqr4 sqr5 sqr6'
+    'sqr7 sqr8 sqr9'
+    'score score score';
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sqr1 {
+  grid-area: sqr1;
+  border: 1px solid black;
+}
+.sqr2 {
+  grid-area: sqr2;
+  border: 1px solid black;
+}
+.sqr3 {
+  grid-area: sqr3;
+  border: 1px solid black;
+}
+.sqr4 {
+  grid-area: sqr4;
+  border: 1px solid black;
+}
+.sqr5 {
+  grid-area: sqr5;
+  border: 1px solid black;
+}
+.sqr6 {
+  grid-area: sqr6;
+  border: 1px solid black;
+}
+.sqr7 {
+  grid-area: sqr7;
+  border: 1px solid black;
+}
+.sqr8 {
+  grid-area: sqr8;
+  border: 1px solid black;
+}
+.sqr9 {
+  grid-area: sqr9;
+  border: 1px solid black;
+}
+#ply1 {
+  grid-area: ply1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+#ply2 {
+  grid-area: ply2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+#icon1 {
+  grid-area: icon1;
+  background-image: url('img/icon_shield.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+#icon2 {
+  grid-area: icon2;
+  background-image: url('img/icon_sword.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.setImageShield {
+  background-image: url('img/icon_shield.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.setImageSword {
+  background-image: url('img/icon_sword.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+#x {
+  grid-area: x;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+#divButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#button {
+  padding: 20px;
+}
