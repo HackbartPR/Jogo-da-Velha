@@ -1,5 +1,6 @@
 # Jogo da Velha
 
+![Jogo da Velha](https://user-images.githubusercontent.com/95001642/150704455-4df8818a-132f-4b99-be60-4f8e987744c0.gif)
 
 
 <h3 align="left">Sobre</h3>
